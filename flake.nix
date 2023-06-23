@@ -25,7 +25,7 @@
           inherit system overlays;
         };
         buildInputs = with pkgs; [
-          pkgconfig
+          pkg-config
           openssl
         ];
       in with pkgs; {
